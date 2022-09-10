@@ -8,12 +8,38 @@
     "test": "nx test"
   },
   "private": true,
-  "dependencies": {},
+  "dependencies": {
+    "nativescript-theme-core": "~1.0.4",
+    "@angular/animations": "14.1.1",
+    "@angular/common": "14.1.1",
+    "@angular/compiler": "14.1.1",
+    "@angular/core": "14.1.1",
+    "@angular/forms": "14.1.1",
+    "@angular/platform-browser": "14.1.1",
+    "@angular/platform-browser-dynamic": "14.1.1",
+    "@angular/router": "14.1.1",
+    "@nativescript/angular": "14.0.4",
+    "@nativescript/core": "8.3.2",
+    "rxjs": "7.5.6",
+    "tslib": "2.3.0",
+    "zone.js": "0.11.7"
+  },
   "devDependencies": {
-    "nx": "14.5.1",
+    "@nativescript/nx": "^4.0.1",
     "@nrwl/cli": "14.5.1",
     "@nrwl/workspace": "14.5.1",
-    "typescript": "~4.7.2",
-    "prettier": "^2.6.2"
+    "nx": "14.5.1",
+    "prettier": "^2.6.2",
+    "sass": "^1.32.0",
+    "@angular-devkit/build-angular": "14.1.1",
+    "@angular/compiler-cli": "14.1.1",
+    "@nativescript/types": "8.3.1",
+    "@nativescript/webpack": "5.0.8",
+    "@ngtools/webpack": "14.1.1",
+    "typescript": "4.7.2"
+  },
+  "nativescript-nx": {
+    "prefix": "",
+    "framework": "angular"
   }
 }
